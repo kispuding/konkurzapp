@@ -1,0 +1,1 @@
+dufam ze toto bude appka na konkurz it klubu na ibn

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/style.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <title></title>
+</head>
+<body>
+<div class="header">
+    <h1>Ahoj {{ name }}!</h1>
+    <img src="static/img/pcklub.png" />
+</div>
+<div class="main">
+        <h2>O ktoré pozície máš záujem?</h2>
+        <form action="/skills" method="post" id="pos">
+            <button type="button" class="check">Grafik</button><br>
+            <button type="button" class="check">Programátor</button><br>
+            <button type="button" class="check">Systémový administrátor</button><br>
+            <button type="button" class="check">Technik</button><br>
+            <button type="button" class="check">Webmaster</button><br>
+            <!--<h1 class="pos">TESTIIK</h1>-->
+            <input type="submit" value="Dalej >" class="pos">
+        </form>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="static/js/clickScript.js"></script>
+</body>
+</html>
